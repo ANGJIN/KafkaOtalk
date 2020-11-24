@@ -90,7 +90,7 @@ public class ChatProgram {
             try {
                 op = Integer.parseInt(scanner.nextLine());
             } catch (Exception e) {
-                System.out.println("Input must be integer from 1 to 2");
+                System.out.println("Input must be integer from 1 to 4");
                 continue;
             }
             if (op == 1) { /* List */
@@ -139,7 +139,7 @@ public class ChatProgram {
             try {
                 op = Integer.parseInt(scanner.nextLine());
             } catch (Exception e) {
-                System.out.println("Input must be integer from 1 to 2");
+                System.out.println("Input must be integer from 1 to 4");
                 continue;
             }
             if (op == 1) { /* Read */
