@@ -21,15 +21,30 @@ Check Descriptions of each windows below.
 
 ---
 1. Log in window
-    - Log in with user id
-    - Can terminate Chatting program
+    - type 1 or 2 to select operation.
+    - 1 : Log in
+        - Log in chat program with typed uesername.
+    - 2 : Exit 
+        - Terminate chatting program
 2. Chatting window 
-    - Show assigned chat rooms list, make or join chatroom.
-    - Can jump to Chat room window or exit to Log in window. 
+    - type integer from 1 to 4 to select operation.
+    - 1 : List
+        - List all Chat rooms. 
+    - 2 : Make
+        - Make new Chat room.
+    - 3 : Join
+        - Join Chat room (must create before join chatroom)
+    - 4 : Log Out
+        - Log Out and go back to log in window. 
 3. Chat room window
-    - Read & Write messages from chat room.
-    - Can reset the chatroom, so you can read from the first message.
-    - Can exit to Chatting window.
+    - 1 : Read
+        - Read all unread messages.
+    - 2 : Write
+        - Write message.
+    - 3 : Reset
+        - Reset chat room. After reset, you can read from first message.
+    - 4 : Exit
+        - Exit to chatting window
 ---
 ##### Log in window example
 ```
